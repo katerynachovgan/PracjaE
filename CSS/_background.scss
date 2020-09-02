@@ -1,0 +1,32 @@
+%background_images{
+    .background__img{
+        padding: 10px;
+    }
+
+    .ellipse{
+        position: relative;
+        width: auto;
+        height: 100%;
+      
+    }
+  
+    .rectangle129{
+        position: absolute;
+        z-index: 2;
+        top: 39rem;
+        right: 36rem;
+    }
+    .rectangle130{
+        z-index: 2;
+        top: 8rem;
+        right: 37rem;
+        position: absolute;
+    }
+    .rectangle131{
+        position: absolute;
+        right: 5rem;
+        bottom: 3rem;
+        z-index: 2;
+    }
+  
+}
