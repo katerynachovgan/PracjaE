@@ -1,27 +1,24 @@
+@charset "UTF-8";
 body .background__img {
   padding: 10px;
 }
-
 body .ellipse {
   position: relative;
   width: auto;
   height: 100%;
 }
-
 body .rectangle129 {
   position: absolute;
   z-index: 2;
   top: 39rem;
   right: 36rem;
 }
-
 body .rectangle130 {
   z-index: 2;
   top: 8rem;
   right: 37rem;
   position: absolute;
 }
-
 body .rectangle131 {
   position: absolute;
   right: 5rem;
@@ -33,14 +30,13 @@ body {
   max-height: 1080px;
   background: #1F2833 url(Images/HomeImages/background.png) no-repeat;
   background-size: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 *, img,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1,
@@ -70,11 +66,8 @@ h6 {
 }
 
 .header__inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .header__logo {
@@ -84,9 +77,7 @@ h6 {
 
 .nav {
   margin-top: 27px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .nav__link {
@@ -112,30 +103,21 @@ h6 {
   background: #05697F;
 }
 
-.enter, .registration_btn {
+.registration_btn, .enter {
   background: #1CC3E7;
   border-radius: 15px;
   font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   color: #F1F0F0;
 }
 
 .body_inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .title__first {
@@ -147,7 +129,6 @@ h6 {
   text-transform: uppercase;
   margin-top: 171px;
 }
-
 .title__first .pracjaE {
   color: #1CC3E7;
 }
@@ -184,50 +165,35 @@ hr {
 
 footer {
   margin: auto 150px;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
 }
-
 footer .footer_inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
-
 footer .footer_first {
   margin-right: 200px;
   padding: 10px;
   width: 20%;
 }
-
 footer .footer_second {
   padding: 10px;
   width: 80%;
 }
-
 footer .footer_logo img {
   width: 188px;
   height: 48px;
 }
-
 footer .footer_content {
   display: block;
   color: #F1F0F0;
   font-size: 14px;
   font-style: normal;
 }
-
 footer .footer_content .navmenu_footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 footer .footer_content .navmenu_footer a {
   text-decoration: none;
   color: #F1F0F0;
@@ -235,8 +201,176 @@ footer .footer_content .navmenu_footer a {
   font-weight: bold;
   font-style: normal;
 }
-
 footer .footer_content .copyright {
   margin-top: 15px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.input__password__2, .input__password, .input__email {
+  position: absolute;
+  width: 407px;
+  height: 63px;
+  left: 86px;
+  margin-top: 5px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.password__2, .password {
+  position: absolute;
+  width: 192.69px;
+  height: 29px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*вход*/
+.section_gray {
+  position: relative;
+  width: 1916px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(31, 40, 51, 0.6);
+}
+
+.login__window {
+  position: relative;
+  width: 579px;
+  height: 669px;
+  left: 671px;
+  top: 206px;
+  background: #445262;
+  border-radius: 35px;
+}
+
+.exit {
+  position: absolute;
+  left: 508.45px;
+  right: 46.55px;
+  top: 27px;
+  bottom: 618px;
+  width: 24px;
+  height: 24px;
+}
+
+.text__uptitle {
+  position: absolute;
+  width: 426px;
+  height: 21px;
+  left: 78px;
+  top: 64px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.text__title {
+  position: absolute;
+  width: 331px;
+  height: 35px;
+  left: 125px;
+  top: 96px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Email {
+  position: absolute;
+  width: 255.45px;
+  height: 25px;
+  left: 70.56px;
+  top: 169px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.input__email {
+  top: 203px;
+}
+
+.password {
+  left: 53.64px;
+  top: 280px;
+}
+
+.input__password {
+  top: 314px;
+}
+
+.password__2 {
+  left: 64px;
+  top: 390px;
+}
+
+.input__password__2 {
+  top: 425px;
+}
+
+.button {
+  position: absolute;
+  width: 407px;
+  height: 63px;
+  left: 86px;
+  top: 536px;
+  background: #1cc3e7;
+  border-radius: 15px;
+}
+
+.click__button {
+  position: absolute;
+  width: 82px;
+  height: 27px;
+  left: 168px;
+  top: 2px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*регистрация*/
+.click__button_2 {
+  position: absolute;
+  width: 224px;
+  height: 27px;
+  left: 91px;
+  top: 2px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*подтверждение*/
+.img__right {
+  position: absolute;
+  left: 849px;
+  top: 429px;
+  width: 222px;
+  height: 222px;
+}

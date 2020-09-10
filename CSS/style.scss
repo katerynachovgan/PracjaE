@@ -37,3 +37,186 @@ h6 {
 @import 'Blocks/_body_content';
 @import 'Blocks/_footer';
 
+$color_1:rgba(31, 40, 51, 0.6);
+$color_2:#445262;
+$color_3:#ffffff;
+$fs:16px;
+
+%tpinput {
+    position: absolute;
+    width: 407px;
+    height: 63px;
+    left: 86px;
+    margin-top: 5px;
+    background: $color_3;
+    border-radius: 15px;
+}
+
+%tpPassword {
+    position: absolute;
+    width: 192.69px;
+    height: 29px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $fs;
+    line-height: 27px;
+    text-align: center;
+    color: $color_3;
+}
+/*вход*/
+.section_gray {
+    position: relative;
+    width: 1916px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background-color: $color_1;
+}
+
+.login__window {
+    position: relative;
+    width: 579px;
+    height: 669px;
+    left: 671px;
+    top: 206px;
+    background: $color_2;
+    border-radius: 35px;
+}
+
+
+.exit {
+    position: absolute;
+    left: 508.45px;
+    right: 46.55px;
+    top: 27px;
+    bottom: 618px;
+    width: 24px;
+    height: 24px;
+}
+
+
+.text__uptitle {
+    position: absolute;
+    width: 426px;
+    height: 21px;
+    left: 78px;
+    top: 64px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: $color_3;
+}
+
+.text__title {
+    position: absolute;
+    width: 331px;
+    height: 35px;
+    left: 125px;
+    top: 96px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $fs;
+    line-height: 27px;
+    text-align: center;
+    color: $color_3;
+}
+
+.Email {
+    position: absolute;
+    width: 255.45px;
+    height: 25px;
+    left: 70.56px;
+    top: 169px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $fs;
+    line-height: 27px;
+    text-align: center;
+    color: $color_3;
+}
+
+
+.input__email {
+    top: 203px;
+    @extend %tpinput;
+}
+
+.password {
+   left: 53.64px;
+   top: 280px;
+   @extend %tpPassword
+}
+
+.input__password{
+    top: 314px;
+    @extend %tpinput;
+}
+
+.password__2 {
+    left: 64px;
+    top: 390px;
+    @extend %tpPassword
+}
+
+.input__password__2 {
+    top: 425px;
+   @extend %tpinput;
+}
+ 
+
+.button {
+    position: absolute;
+    width: 407px;
+    height: 63px;
+    left: 86px;
+    top: 536px;
+    background: #1cc3e7;
+    border-radius: 15px;
+}
+
+.click__button {
+    position: absolute;
+    width: 82px;
+    height: 27px;
+    left: 168px;
+    top: 2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: $color_3;
+}
+
+/*регистрация*/
+.click__button_2 {
+    position: absolute;
+    width: 224px;
+    height: 27px;
+    left: 91px;
+    top: 2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: $color_3;
+}
+
+/*подтверждение*/
+.img__right {
+    position: absolute;
+    left: 849px;
+    top: 429px;
+    width: 222px;
+    height: 222px;
+    
+}
