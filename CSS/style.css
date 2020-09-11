@@ -1,32 +1,5 @@
 body .background__img {
-  padding: 10px;
-}
-
-body .ellipse {
-  position: relative;
-  width: auto;
-  height: 100%;
-}
-
-body .rectangle129 {
-  position: absolute;
-  z-index: 2;
-  top: 39rem;
-  right: 36rem;
-}
-
-body .rectangle130 {
-  z-index: 2;
-  top: 8rem;
-  right: 37rem;
-  position: absolute;
-}
-
-body .rectangle131 {
-  position: absolute;
-  right: 5rem;
-  bottom: 3rem;
-  z-index: 2;
+  padding: 5px;
 }
 
 body {
@@ -101,6 +74,10 @@ h6 {
   text-transform: uppercase;
 }
 
+.nav__link:hover {
+  border-bottom: blue solid 1px;
+}
+
 .enter {
   width: 240px;
   height: 52px;
@@ -134,8 +111,9 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .title__first {

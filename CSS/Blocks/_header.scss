@@ -35,6 +35,9 @@
     text-align: center;
     text-transform: uppercase;
 }
+.nav__link:hover{
+border-bottom: blue solid 1px;
+}
 
 .enter{
     @extend %blue_btn;
