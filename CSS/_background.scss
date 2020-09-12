@@ -1,32 +1,21 @@
 %background_images{
-    .background__img{
-        padding: 10px;
+    .background__img,.background__about__us{
+        width: 100%;
+        padding: 0px;
     }
-
-    .ellipse{
-        position: relative;
+    .background__about__us{
+        margin-top: 50px;
+    }
+    .HomeImage{
         width: auto;
         height: 100%;
-      
-    }
-  
-    .rectangle129{
         position: absolute;
-        z-index: 2;
-        top: 39rem;
-        right: 36rem;
+        right: 0px;
     }
-    .rectangle130{
-        z-index: 2;
-        top: 8rem;
-        right: 37rem;
+    .about__us__img{
+        width: auto;
+        height: 100%;
         position: absolute;
+        left: 0px;
     }
-    .rectangle131{
-        position: absolute;
-        right: 5rem;
-        bottom: 3rem;
-        z-index: 2;
-    }
-  
 }
