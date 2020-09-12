@@ -4,7 +4,7 @@
 body {
     @extend %background_images;
     max-height: 1080px;
-    background: $bgColor url(Images/HomeImages/background.png) no-repeat;
+    background: $bgColor;
     background-size: 100%;
   
     font-family: 'Montserrat', sans-serif;

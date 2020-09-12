@@ -3,7 +3,10 @@
 
 .body_inner{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.body_content{
+    z-index: 10;
 }
 
 .title__first {
