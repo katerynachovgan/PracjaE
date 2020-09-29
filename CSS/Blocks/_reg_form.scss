@@ -1,0 +1,106 @@
+.private {
+    display: flex;
+    margin-bottom: 5rem;
+
+    .private__information {
+        width: 100%;
+        font-weight: 500;
+        font-size: 1.375rem;
+        color: $color_3;
+        margin-left: 2rem;
+        border-bottom: 2px solid $linesColor;
+
+        .private__name {
+            font-weight: 700;
+            font-size: 2rem;
+            color: $color_3;
+            margin-bottom: 4.69rem;
+        }
+
+        .private__phone {
+            margin-bottom: 2rem;
+        }
+
+        .private__email {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .revision__count {
+        position: absolute;
+        top: 23rem;
+        right: 8rem;
+
+        font-weight: 700;
+        font-size: 1.375rem;
+        color: $color_3;
+        border-bottom: 2px solid $linesColor;
+
+        .number {
+            color: $pracjaColor;
+        }
+    }
+}
+
+.reg__title {
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: $color_3;
+    margin-bottom: 0.7rem;
+}
+
+.reg__content {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: $color_3;
+    margin-bottom: 1.1rem;
+}
+.pre__list{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: $color_3;
+    margin-bottom: 1.1rem;
+} 
+
+
+.pre__line{
+    padding-bottom: 3.5rem;
+    width: 100%;
+    border-bottom: 2px solid $linesColor;
+
+}
+.after__line{
+    margin-top: 3.5rem;
+}
+.soft__skills__content{
+    margin-bottom: 11.75rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+
+.edit__btn{
+    @extend %blue_btn;
+    width: 500px;
+    height: 64px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-right: 1.5rem;
+}
+.exit__btn{
+    @extend %blue_btn;
+    width: 500px;
+    height: 64px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-right: 1.5rem;
+}
+.edit__btn:hover, .exit__btn:hover{
+    background:$hoverBtnColor;
+}
+}

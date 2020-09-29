@@ -33,14 +33,16 @@ h6 {
     margin: 0 auto;
 }
 
+.wrapper{
+    width: 100%;
+    max-width: 80rem;
+    margin: 17rem auto;
+}
+
 @import 'Blocks/_header';
 @import 'Blocks/_body_content';
 @import 'Blocks/_footer';
-
-$color_1:rgba(31, 40, 51, 0.6);
-$color_2:#445262;
-$color_3:#ffffff;
-$fs:16px;
+@import 'Blocks/_reg_form';
 
 %tpinput {
     position: absolute;

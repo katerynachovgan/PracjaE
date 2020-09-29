@@ -18,4 +18,17 @@
         position: absolute;
         left: 0px;
     }
+
+    .background_rectangle{
+        width: 691.2px;
+        height: 876.28px;
+        background: linear-gradient(277.45deg,
+         #05697F -4.08%, rgba(5, 105, 127, 0) 95.53%);
+         border-radius: 100px;
+         transform: rotate(-45deg);
+         position: absolute;
+         top: -9rem;
+         right: 99rem;
+         z-index: -10
+    }
 }
