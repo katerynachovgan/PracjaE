@@ -22,6 +22,19 @@ body .about__us__img {
   left: 0px;
 }
 
+body .background_rectangle {
+  width: 691.2px;
+  height: 876.28px;
+  background: linear-gradient(277.45deg, #05697F -4.08%, rgba(5, 105, 127, 0) 95.53%);
+  border-radius: 100px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: absolute;
+  top: -9rem;
+  right: 99rem;
+  z-index: -10;
+}
+
 body {
   max-height: 1080px;
   background: #1F2833;
@@ -50,6 +63,12 @@ h6 {
   width: 100%;
   max-width: 1880px;
   margin: 0 auto;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 80rem;
+  margin: 17rem auto;
 }
 
 .header {
@@ -105,7 +124,7 @@ h6 {
   background: #05697F;
 }
 
-.enter, .registration_btn {
+.enter, .registration_btn, .buttons .edit__btn, .buttons .exit__btn {
   background: #1CC3E7;
   border-radius: 15px;
   font-style: normal;
@@ -236,6 +255,119 @@ footer .footer_content .navmenu_footer a {
 
 footer .footer_content .copyright {
   margin-top: 15px;
+}
+
+.private {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.private .private__information {
+  width: 100%;
+  font-weight: 500;
+  font-size: 1.375rem;
+  color: #ffffff;
+  margin-left: 2rem;
+  border-bottom: 2px solid #078CA9;
+}
+
+.private .private__information .private__name {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 4.69rem;
+}
+
+.private .private__information .private__phone {
+  margin-bottom: 2rem;
+}
+
+.private .private__information .private__email {
+  margin-bottom: 2rem;
+}
+
+.private .revision__count {
+  position: absolute;
+  top: 23rem;
+  right: 8rem;
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: #ffffff;
+  border-bottom: 2px solid #078CA9;
+}
+
+.private .revision__count .number {
+  color: #1CC3E7;
+}
+
+.reg__title {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.7rem;
+}
+
+.reg__content {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 1.1rem;
+}
+
+.pre__list {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 1.1rem;
+}
+
+.pre__line {
+  padding-bottom: 3.5rem;
+  width: 100%;
+  border-bottom: 2px solid #078CA9;
+}
+
+.after__line {
+  margin-top: 3.5rem;
+}
+
+.soft__skills__content {
+  margin-bottom: 11.75rem;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.buttons .edit__btn {
+  width: 500px;
+  height: 64px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-right: 1.5rem;
+}
+
+.buttons .exit__btn {
+  width: 500px;
+  height: 64px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-right: 1.5rem;
+}
+
+.buttons .edit__btn:hover, .buttons .exit__btn:hover {
+  background: #05697F;
 }
 
 .input__email, .input__password, .input__password__2 {
