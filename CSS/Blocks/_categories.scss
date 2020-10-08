@@ -1,0 +1,38 @@
+.cat__inner {
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+
+    .work__category {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 250%;
+        text-align: center;
+        color: #FFFFFF;
+        background: #a5a5a5;
+        width: 22rem;
+        height: 3rem;
+
+        img {
+            position: relative;
+            right: -15px;
+        }
+    }
+}
+
+.now_on_site {
+    text-align: center;
+    margin-top: 3.5rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: $color_3;
+   
+    .people_number{
+        color: $pracjaColor;
+        font-size: 1rem;
+    }
+}
