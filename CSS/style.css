@@ -323,6 +323,13 @@ footer .footer_content .copyright {
   margin-bottom: 1.1rem;
 }
 
+.pre__list .pre__list__item {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.5rem;
+}
+
 .pre__line {
   padding-bottom: 3.5rem;
   width: 100%;
