@@ -1,5 +1,7 @@
 @import 'Blocks/_colors';
 @import '_background';
+@import 'Blocks/_categories';
+@import 'Blocks/_resume_list';
 
 body {
     @extend %background_images;

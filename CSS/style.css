@@ -35,6 +35,143 @@ body .background_rectangle {
   z-index: -10;
 }
 
+.cat__inner {
+  width: 100%;
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.cat__inner .work__category {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 250%;
+  text-align: center;
+  color: #FFFFFF;
+  background: #a5a5a5;
+  width: 22rem;
+  height: 3rem;
+}
+
+.cat__inner .work__category img {
+  position: relative;
+  right: -15px;
+}
+
+.now_on_site {
+  text-align: center;
+  margin-top: 3.5rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.now_on_site .people_number {
+  color: #1CC3E7;
+  font-size: 1rem;
+}
+
+.wrapper__resume {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-bottom: 3.82rem;
+  border-bottom: 1px solid #1CC3E7;
+}
+
+.wrapper__resume .resume__list {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper__resume .resume__list .candidate__photo {
+  margin-right: 2.5rem;
+}
+
+.wrapper__resume .resume__list .candidate__content {
+  display: block;
+}
+
+.wrapper__resume .resume__list .candidate__content .candidate__name {
+  color: #53D1EC;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.wrapper__resume .resume__list .candidate__content .city__live {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #53D1EC;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-top: 10px;
+}
+
+.wrapper__resume .resume__list .candidate__content .city__live .icon__map {
+  margin-right: 0.5rem;
+}
+
+.wrapper__resume .resume__list .candidate__content .candidate__information {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #ffffff;
+  margin-top: 2.2rem;
+}
+
+.wrapper__resume .resume__list .candidate__content .page__information {
+  margin-top: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #ffffff;
+}
+
+.wrapper__resume .resume__list .candidate__content .page__information .revision__counts {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+
+.wrapper__resume .resume__list .candidate__content .page__information .detail__information {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+
+.wrapper__resume .resume__list .candidate__content .page__information .detail__information .arrow__right {
+  margin-left: 1rem;
+}
+
+.more_btn {
+  margin: 0 auto;
+  margin-top: 7rem;
+  width: 31.25rem;
+  height: 4rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+}
+
+
 body {
   max-height: 1080px;
   background: #1F2833;
@@ -72,7 +209,7 @@ h6 {
 }
 
 .header {
-  margin-top: 20px;
+  margin-top: 2rem;
   margin-bottom: 30px;
 }
 
@@ -124,7 +261,8 @@ h6 {
   background: #05697F;
 }
 
-.enter, .registration_btn, .buttons .edit__btn, .buttons .exit__btn {
+
+.more_btn, .enter, .registration_btn, .buttons .edit__btn, .buttons .exit__btn {
   background: #1CC3E7;
   border-radius: 15px;
   font-style: normal;
