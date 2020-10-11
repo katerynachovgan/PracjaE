@@ -29,6 +29,19 @@
          position: absolute;
          top: -9rem;
          right: 99rem;
-         z-index: -10
+         z-index: -10;
+    }
+
+    .background_rectangle_index{
+        width: 423.56px;
+        height: 366.62px;
+        background: linear-gradient(277.45deg,
+         #05697F -4.08%, rgba(5, 105, 127, 0) 95.53%);
+         border-radius: 100px;
+         transform: rotate(-45deg);
+         position: absolute;
+         top: 45rem;
+         right: 116rem;
+         z-index: -10;
     }
 }

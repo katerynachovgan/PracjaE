@@ -35,6 +35,19 @@ body .background_rectangle {
   z-index: -10;
 }
 
+body .background_rectangle_index {
+  width: 423.56px;
+  height: 366.62px;
+  background: linear-gradient(277.45deg, #05697F -4.08%, rgba(5, 105, 127, 0) 95.53%);
+  border-radius: 100px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: absolute;
+  top: 45rem;
+  right: 116rem;
+  z-index: -10;
+}
+
 .cat__inner {
   width: 100%;
   margin-top: 4rem;
